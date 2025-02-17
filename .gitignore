@@ -1,0 +1,59 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.pytest_cache/
+
+# Logs
+*.log
+logs/
+etl/*.log
+parsing.log
+preparation.log
+scraping.log
+
+# Data directories
+data/embeddings/
+data/event_links/
+data/html_files/
+data/json_files/
+data/json_prepared/
+
+etl/data/
+
+
+# Node
+node_modules/
+dist/
+npm-debug.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+.DS_Store
+Thumbs.db
+
+# MongoDB
+*.mongodb
+
+# Misc
+*.bak
+*.tmp
+*.temp
+.cache/
+
+# fihciers à omettre
+1_lavtrine_scrapper_20_liens.py

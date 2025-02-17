@@ -1,0 +1,32 @@
+# Web Automation et Scraping
+playwright>=1.35.0
+beautifulsoup4>=4.9.3
+
+# API et Backend
+flask>=2.0.0
+flask-cors>=3.0.0
+pydantic>=1.9.0
+
+# Base de données vectorielle
+pinecone-client>=2.0.0
+
+# Machine Learning et LLM
+openai>=1.0.0
+
+# Traitement des données
+pandas>=1.3.0
+numpy>=1.21.0
+tqdm>=4.65.0
+
+# Gestion des dates
+pytz>=2023.3
+python-dateutil>=2.8.2
+
+# Utilitaires
+python-dotenv>=0.19.0
+backoff>=2.2.1
+requests>=2.28.0
+urllib3>=2.0.0
+
+# Logging et debugging
+logging>=0.5.0
